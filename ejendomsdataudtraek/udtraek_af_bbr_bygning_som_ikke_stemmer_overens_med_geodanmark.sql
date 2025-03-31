@@ -1,2 +1,2 @@
--Vi trækker ud af tabel:
+--Vi trækker ud af tabel:
 SELECT * FROM dbo.bbr_bygning WHERE...
