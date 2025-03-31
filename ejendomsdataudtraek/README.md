@@ -3,6 +3,7 @@ Geo Fyn har her samlet en række eksempler på udtræk af ejendomsdata.
 
 ## BBR bygning stemmer ikke overens med GeoDanmark
 Her er et eksempel på et udtræk fra BBR, hvor bygningsareal ikke stemmer overens med GeoDanmark bygningensareal.
+
 [Udtræk af BBR bygning som ikke stemmer overens med GeoDanmark](udtraek_af_bbr_bygning_som_ikke_stemmer_overens_med_geodanmark.sql)
 
 ## Xxx
