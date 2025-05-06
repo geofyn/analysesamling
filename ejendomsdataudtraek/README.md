@@ -9,8 +9,9 @@ Her er et eksempel på et udtræk fra BBR, hvor bygningsareal ikke stemmer overe
 Udvælger alle personer der i sommerhuse, uanset om der er dispensation til helårsbeboelse eller ej. <br>
 [Se kode](https://github.com/geofyn/analysesamling/blob/main/ejendomsdataudtraek/personer_der_bor_i_sommerhuse.sql)
 
-## Xxx
-Xxx
+## Ejerlejligheder uden adresse
+Udvælger alle ejerlejligheder der ikke har enten en adresse eller et husnummer. Der bør være få af disse.
+
 
 ## Xxx
 Xxx
