@@ -1,0 +1,1 @@
+Select CPR_AktivKom_GeoView.Adresseringsnavn, CPR_AktivKom_GeoView.Standardadresse, CPR_AktivKom_GeoView.Fødselsdato, CPR_AktivKom_GeoView.POSTNR, CPR_AktivKom_GeoView.Postdistrikt From CPR_AktivKom_GeoView Where CPR_AktivKom_GeoView.Fødselsdato Between 19240101 And 19241231 Order By CPR_AktivKom_GeoView.Fødselsdato
