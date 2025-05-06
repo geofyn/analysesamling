@@ -11,7 +11,7 @@ Udvælger alle personer der i sommerhuse, uanset om der er dispensation til hel�
 
 ## Ejerlejligheder uden adresse
 Udvælger alle ejerlejligheder der ikke har enten en adresse eller et husnummer. Der bør være få af disse.
-
+[Se kode](https://github.com/geofyn/analysesamling/blob/main/ejendomsdataudtraek/ejerlejligheder_uden_adresse.sql)
 
 ## Xxx
 Xxx
