@@ -1,6 +1,6 @@
 Select cpr.Fornavn,
 cpr.Efternavn,
-cpr.CPR,
+cpr.CPR_nr,
 enh.enh041LovligAnvendelse_T,
 enh.enh042DatoForTidbegraensDisp, 
 enh.enh048GodkendtTomBolig_T,
@@ -10,10 +10,11 @@ byg.Vejnavn, byg.HusNr,
 byg.Postnr As Postnr1,
 byg.PostDistrikt,
 byg.byg021BygningensAnvendelse_T,
-cpr.Adressedato, EnhAdr_id, enh.Bygning
-From CPR_AktivView cpr 
+AdresseId,
+enh.Bygning
+From cpr.PersonKomGeoView cpr 
 
-Inner Join BBR.EnhedGeoView enh On enh.Adresse = cpr.EnhAdr_id 
+Inner Join BBR.EnhedGeoView enh On enh.Adresse = cpr.AdresseId 
 Inner Join BBR.BygningGeoView byg On byg.BygningId = enh.Bygning 
 
 Where byg.byg021BygningensAnvendelse = 510
