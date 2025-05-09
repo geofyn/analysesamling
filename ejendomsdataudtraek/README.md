@@ -26,6 +26,6 @@ Ud fra civilstandsdato beregnes hvilke borgere der har diamantbryllup de næste 
 [Se kode](https://github.com/geofyn/analysesamling/blob/main/ejendomsdataudtraek/diamantbryllup_maaned.sql)
 
 ## Udtræk af ejendomme ejet af folkekirken
-Se et eksempel på hvordan ejendomme ejet af folkekirken kan trækkes ud.
+Se et eksempel på hvordan ejendomme ejet af folkekirken -  menighedsråd eller præstegård.
 [Se kode](kirkejord2_0.sql)
 
