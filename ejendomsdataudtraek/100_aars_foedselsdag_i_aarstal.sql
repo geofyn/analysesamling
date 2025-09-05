@@ -3,8 +3,7 @@ SELECT
 	Standardadresse,
 	FoedtDato,
 	Postnr,
-	PostDistrikt,
-	YEAR(GETDATE())
+	PostDistrikt
 FROM
 	cpr.PersonKomGeoView
 WHERE
