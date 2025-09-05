@@ -11,7 +11,7 @@ Udvælger alle ejerlejligheder der ikke har enten en adresse eller et husnummer.
 
 ## Borgere der fylder 100 år i 2025
 Ud fra fødselsdato beregnes, hvem der fylder 100 år i 2025. Når der skal vælges et andet år, skal årstallet justeres 2 gange i WHERE-sætningen
-[Se kode](https://github.com/geofyn/analysesamling/blob/main/ejendomsdataudtraek/100_aars_foedselsdag_i_aarstal.sql)
+[Se kode](https://github.com/geofyn/analysesamling/blob/main/ejendomsdataudtraek/100_aars_foedselsdag_i_aar.sql)
 
 ## Borgere der fylder 100 år den kommende løbende måned
 Ud fra fødselsdato beregnes, hvem der fylder 100 år de næste 28-31 dage. Det vil sige køres forespørgslen d. 15. januar kommer alle med som fylder 100 år mellem 15. januar og 15. februar. 
