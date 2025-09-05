@@ -9,7 +9,7 @@ Udvælger alle personer der i sommerhuse, uanset om der er dispensation til hel�
 Udvælger alle ejerlejligheder der ikke har enten en adresse eller et husnummer. Der bør være få af disse.
 [Se kode](https://github.com/geofyn/analysesamling/blob/main/ejendomsdataudtraek/ejerlejligheder_uden_adresse.sql)
 
-## Borgere der fylder 100 år i 2025
+## Borgere der fylder 100 år i nuværende år
 Ud fra fødselsdato beregnes, hvem der fylder 100 år i 2025. Når der skal vælges et andet år, skal årstallet justeres 2 gange i WHERE-sætningen
 [Se kode](https://github.com/geofyn/analysesamling/blob/main/ejendomsdataudtraek/100_aars_foedselsdag_i_aar.sql)
 
@@ -19,7 +19,7 @@ Ud fra fødselsdato beregnes, hvem der fylder 100 år de næste 28-31 dage. Det 
 
 ## Borgere der har guldbryllup i nuværende år
 Ud fra civilstandsdato beregnes hvilke borgere der har guldbryllup i nuværende år. Hvert ægtepar optræder 2 gange i resultatet.
-[Se kode](https://github.com/geofyn/analysesamling/blob/main/ejendomsdataudtraek/guldbryllup_i_aarstal.sql)
+[Se kode](https://github.com/geofyn/analysesamling/blob/main/ejendomsdataudtraek/guldbryllup_i_aar.sql)
 
 ## Borgere der har guldbryllup den kommende løbende måned
 Ud fra civilstandsdato beregnes hvilke borgere der har guldbryllup de næste 28-31 dage. Det vil sige køres forespørgslen d. 15. januar kommer alle med som har guldbryllup 15. januar og 15. februar. 
