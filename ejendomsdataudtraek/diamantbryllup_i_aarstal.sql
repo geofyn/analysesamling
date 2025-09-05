@@ -1,1 +1,10 @@
-Select CPR_AktivKom_GeoView.Civilstandsdato, CPR_AktivKom_GeoView.Adresseringsnavn, CPR_AktivKom_GeoView.Standardadresse, CPR_AktivKom_GeoView.Fødselsdato, CPR_AktivKom_GeoView.POSTNR, CPR_AktivKom_GeoView.Postdistrikt From CPR_AktivKom_GeoView Where CPR_AktivKom_GeoView.Civilstandsdato Between 196401010000 And 196431120000 And CPR_AktivKom_GeoView.Civilstand = 'G' Order By CPR_AktivKom_GeoView.Civilstandsdato
+SELECT
+	*
+FROM
+	cpr.PersonKomGeoView
+WHERE
+	civilstand = 'G'
+	AND YEAR(AegtepartStartdato) = YEAR(GETDATE()) - 60
+ORDER BY
+	AegtepartStartdato,
+	Standardadresse
