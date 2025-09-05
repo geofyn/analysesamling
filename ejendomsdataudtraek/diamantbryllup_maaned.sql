@@ -1,1 +1,10 @@
-Select CPR_AktivKom_GeoView.Civilstandsdato, CPR_AktivKom_GeoView.Adresseringsnavn, CPR_AktivKom_GeoView.Standardadresse, CPR_AktivKom_GeoView.Fødselsdato, CPR_AktivKom_GeoView.POSTNR, CPR_AktivKom_GeoView.Postdistrikt From CPR_AktivKom_GeoView Where CPR_AktivKom_GeoView.Civilstandsdato Between Format(DateAdd(year, -60, GetDate()), 'yyyyMMddHHmm') And Format(DateAdd(month, +1, DateAdd(year, -60, GetDate())), 'yyyyMMddHHmm') And CPR_AktivKom_GeoView.Civilstand = 'G' Order By CPR_AktivKom_GeoView.Civilstandsdato
+SELECT
+	*
+FROM
+	cpr.PersonKomGeoView
+WHERE
+	civilstand = 'G'
+	AND AegtepartStartdato BETWEEN DATEADD(YEAR, -60, GETDATE()) AND DATEADD(MONTH, + 1, DATEADD(YEAR, -60, GETDATE()))
+ORDER BY
+	AegtepartStartdato,
+	Standardadresse
