@@ -25,7 +25,7 @@ Ud fra civilstandsdato beregnes hvilke borgere der har guldbryllup i nuværende 
 Ud fra civilstandsdato beregnes hvilke borgere der har guldbryllup de næste 28-31 dage. Det vil sige køres forespørgslen d. 15. januar kommer alle med som har guldbryllup 15. januar og 15. februar. 
 [Se kode](https://github.com/geofyn/analysesamling/blob/main/ejendomsdataudtraek/guldbryllup_maaned.sql)
 
-## Borgere der har diamantbryllup i 2025
+## Borgere der har diamantbryllup i nuværende år
 Ud fra civilstandsdato beregnes hvilke borgere der har diamantbryllup i nuværende år. Hvert ægtepar optræder 2 gange i resultatet.
 [Se kode](https://github.com/geofyn/analysesamling/blob/main/ejendomsdataudtraek/diamantbryllup_i_aar.sql)
 
@@ -33,7 +33,7 @@ Ud fra civilstandsdato beregnes hvilke borgere der har diamantbryllup i nuværen
 Ud fra civilstandsdato beregnes hvilke borgere der har diamantbryllup de næste 28-31 dage. Det vil sige køres forespørgslen d. 15. januar kommer alle med som har diamantbryllup 15. januar og 15. februar. 
 [Se kode](https://github.com/geofyn/analysesamling/blob/main/ejendomsdataudtraek/diamantbryllup_maaned.sql)
 
-## Borgere der har krondiamantbryllup i 2025
+## Borgere der har krondiamantbryllup i nuværende år
 Ud fra civilstandsdato beregnes hvilke borgere der har krondiamantbryllup i nuværende år. Hvert ægtepar optræder 2 gange i resultatet.
 [Se kode](https://github.com/geofyn/analysesamling/blob/main/ejendomsdataudtraek/krondiamantbryllup_i_aar.sql)
 
