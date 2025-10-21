@@ -1,5 +1,5 @@
 # CPR-udtræk
-Geo Fyn har her samlet en række eksempler på udtræk af ejendomsdata.
+Geo Fyn har her samlet en række eksempler på udtræk af CPR-data.
 
 ## Personer der bor i sommerhuse
 Udvælger alle personer der i sommerhuse, uanset om der er dispensation til helårsbeboelse eller ej. <br>
